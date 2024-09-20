@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbl1" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl2" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl3" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl4" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl5" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl6" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl7" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl8" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl9" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl10" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl11" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl12" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl13" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl14" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl15" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl16" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl17" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl18" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl19" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl20" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="158" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="text11" min="-2" pref="171" max="-2" attributes="0"/>
+                  <Component id="text10" min="-2" pref="171" max="-2" attributes="0"/>
+                  <Component id="text9" min="-2" pref="171" max="-2" attributes="0"/>
+                  <Component id="text8" min="-2" pref="171" max="-2" attributes="0"/>
+                  <Component id="text7" min="-2" pref="171" max="-2" attributes="0"/>
+                  <Component id="text6" min="-2" pref="171" max="-2" attributes="0"/>
+                  <Component id="text2" min="-2" pref="171" max="-2" attributes="0"/>
+                  <Component id="text1" min="-2" pref="171" max="-2" attributes="0"/>
+                  <Component id="text3" alignment="0" min="-2" pref="171" max="-2" attributes="0"/>
+                  <Component id="text4" alignment="0" min="-2" pref="171" max="-2" attributes="0"/>
+                  <Component id="text5" alignment="0" min="-2" pref="171" max="-2" attributes="0"/>
+                  <Component id="text12" alignment="0" min="-2" pref="171" max="-2" attributes="0"/>
+                  <Component id="text13" alignment="0" min="-2" pref="171" max="-2" attributes="0"/>
+                  <Component id="text14" alignment="0" min="-2" pref="171" max="-2" attributes="0"/>
+                  <Component id="text15" alignment="0" min="-2" pref="171" max="-2" attributes="0"/>
+                  <Component id="text16" alignment="0" min="-2" pref="171" max="-2" attributes="0"/>
+                  <Component id="text17" alignment="0" min="-2" pref="171" max="-2" attributes="0"/>
+                  <Component id="text18" alignment="0" min="-2" pref="171" max="-2" attributes="0"/>
+                  <Component id="text19" alignment="0" min="-2" pref="171" max="-2" attributes="0"/>
+                  <Component id="text20" alignment="0" min="-2" pref="171" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="lblTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="185" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="lblTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="text1" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="lbl1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbl2" min="-2" max="-2" attributes="0"/>
+                  <Component id="text2" alignment="0" min="-2" pref="25" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="text3" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="lbl3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="lbl4" min="-2" max="-2" attributes="0"/>
+                  <Component id="text4" min="-2" pref="25" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="lbl5" min="-2" max="-2" attributes="0"/>
+                  <Component id="text5" min="-2" pref="25" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="lbl6" min="-2" max="-2" attributes="0"/>
+                  <Component id="text6" min="-2" pref="25" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="lbl7" min="-2" max="-2" attributes="0"/>
+                  <Component id="text7" min="-2" pref="25" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="lbl8" min="-2" max="-2" attributes="0"/>
+                  <Component id="text8" min="-2" pref="25" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="text9" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="lbl9" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="text10" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="lbl10" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="text11" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="lbl11" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="text12" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="lbl12" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="text13" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="lbl13" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbl14" min="-2" max="-2" attributes="0"/>
+                  <Component id="text14" alignment="0" min="-2" pref="25" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="text15" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="lbl15" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="text16" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="lbl16" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbl17" min="-2" max="-2" attributes="0"/>
+                  <Component id="text17" alignment="0" min="-2" pref="25" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="text18" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="lbl18" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="text19" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="lbl19" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="text20" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="lbl20" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="429" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lbl3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Email"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="text9">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="City"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="text10">
+    </Component>
+    <Component class="javax.swing.JTextField" name="text12">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Zip"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Social Security Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="text11">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Driver License Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="text5">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="text5ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Drivers License State"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="text6">
+    </Component>
+    <Component class="javax.swing.JTextField" name="text8">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTitle">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="View Person Profile"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Address Line 1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="First Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="text7">
+    </Component>
+    <Component class="javax.swing.JTextField" name="text1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Last Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="State"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="text2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="text4">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Phone"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="text3">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Address Line 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="text13">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Telephone Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl14">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fax Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="text14">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl15">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Height"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="text15">
+    </Component>
+    <Component class="javax.swing.JTextField" name="text16">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl16">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Weight"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl17">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Birth Mark"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl18">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Emergency Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="text17">
+    </Component>
+    <Component class="javax.swing.JTextField" name="text18">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl19">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Emergency Contact Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="text19">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl20">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Employment Status"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="text20">
+    </Component>
+  </SubComponents>
+</Form>
