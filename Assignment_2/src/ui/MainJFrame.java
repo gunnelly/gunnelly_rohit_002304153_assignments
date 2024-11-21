@@ -46,7 +46,7 @@ public class MainJFrame extends javax.swing.JFrame {
     private void initComponents() {
 
         mainPanel = new javax.swing.JPanel();
-        jSplitPane2 = new javax.swing.JSplitPane();
+        jSplitPane1 = new javax.swing.JSplitPane();
         controlPanel = new javax.swing.JPanel();
         btnListPerson = new javax.swing.JButton();
         btnManagePerson = new javax.swing.JButton();
@@ -57,9 +57,6 @@ public class MainJFrame extends javax.swing.JFrame {
         mainPanel.setBackground(new java.awt.Color(153, 204, 255));
         mainPanel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         mainPanel.setLayout(new java.awt.CardLayout());
-
-        controlPanel.setBackground(new java.awt.Color(255, 255, 255));
-        controlPanel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         btnListPerson.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         btnListPerson.setText("List Persons");
@@ -83,57 +80,41 @@ public class MainJFrame extends javax.swing.JFrame {
             controlPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(controlPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(btnManagePerson)
+                .addGroup(controlPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(btnManagePerson, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnListPerson, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, controlPanelLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btnListPerson, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
         );
         controlPanelLayout.setVerticalGroup(
             controlPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(controlPanelLayout.createSequentialGroup()
-                .addGap(46, 46, 46)
+                .addGap(115, 115, 115)
                 .addComponent(btnManagePerson)
-                .addGap(18, 18, 18)
+                .addGap(34, 34, 34)
                 .addComponent(btnListPerson)
-                .addContainerGap(377, Short.MAX_VALUE))
+                .addContainerGap(365, Short.MAX_VALUE))
         );
 
-        jSplitPane2.setLeftComponent(controlPanel);
+        jSplitPane1.setLeftComponent(controlPanel);
 
-        workAreaJPanel.setBackground(new java.awt.Color(255, 255, 255));
-        workAreaJPanel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         workAreaJPanel.setLayout(new java.awt.CardLayout());
-        jSplitPane2.setRightComponent(workAreaJPanel);
+        jSplitPane1.setRightComponent(workAreaJPanel);
+
+        mainPanel.add(jSplitPane1, "card2");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(mainPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(677, Short.MAX_VALUE))
-            .addComponent(jSplitPane2, javax.swing.GroupLayout.Alignment.TRAILING)
+            .addComponent(mainPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 677, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(mainPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jSplitPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 497, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addComponent(mainPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void btnManagePersonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManagePersonActionPerformed
-        // TODO add your handling code here:
-        ManagePersonJPanel panel = new ManagePersonJPanel(workAreaJPanel, personDirectory);
-        workAreaJPanel.add("ManagePersonJPanel", panel);
-        CardLayout layout = (CardLayout) workAreaJPanel.getLayout();
-        layout.next(workAreaJPanel);
-    }//GEN-LAST:event_btnManagePersonActionPerformed
 
     private void btnListPersonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnListPersonActionPerformed
         // TODO add your handling code here:
@@ -142,6 +123,14 @@ public class MainJFrame extends javax.swing.JFrame {
         CardLayout layout = (CardLayout) workAreaJPanel.getLayout();
         layout.next(workAreaJPanel);
     }//GEN-LAST:event_btnListPersonActionPerformed
+
+    private void btnManagePersonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManagePersonActionPerformed
+        // TODO add your handling code here:
+        ManagePersonJPanel panel = new ManagePersonJPanel(workAreaJPanel, personDirectory);
+        workAreaJPanel.add("ManagePersonJPanel", panel);
+        CardLayout layout = (CardLayout) workAreaJPanel.getLayout();
+        layout.next(workAreaJPanel);
+    }//GEN-LAST:event_btnManagePersonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -183,7 +172,7 @@ public class MainJFrame extends javax.swing.JFrame {
     private javax.swing.JButton btnListPerson;
     private javax.swing.JButton btnManagePerson;
     private javax.swing.JPanel controlPanel;
-    private javax.swing.JSplitPane jSplitPane2;
+    private javax.swing.JSplitPane jSplitPane1;
     private javax.swing.JPanel mainPanel;
     private javax.swing.JPanel workAreaJPanel;
     // End of variables declaration//GEN-END:variables
