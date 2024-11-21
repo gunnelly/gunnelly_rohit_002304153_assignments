@@ -58,7 +58,7 @@ public class MainJFrame extends javax.swing.JFrame {
         mainPanel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         mainPanel.setLayout(new java.awt.CardLayout());
 
-        controlPanel.setBackground(new java.awt.Color(153, 153, 255));
+        controlPanel.setBackground(new java.awt.Color(255, 255, 255));
         controlPanel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         btnListPerson.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -102,7 +102,7 @@ public class MainJFrame extends javax.swing.JFrame {
 
         jSplitPane2.setLeftComponent(controlPanel);
 
-        workAreaJPanel.setBackground(new java.awt.Color(153, 153, 255));
+        workAreaJPanel.setBackground(new java.awt.Color(255, 255, 255));
         workAreaJPanel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         workAreaJPanel.setLayout(new java.awt.CardLayout());
         jSplitPane2.setRightComponent(workAreaJPanel);
